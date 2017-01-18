@@ -12,6 +12,16 @@
 		E5383C4A1E2F5B8B00AAF148 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5383C481E2F5B8B00AAF148 /* Main.storyboard */; };
 		E5383C4C1E2F5B8B00AAF148 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5383C4B1E2F5B8B00AAF148 /* Assets.xcassets */; };
 		E5383C4F1E2F5B8B00AAF148 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5383C4D1E2F5B8B00AAF148 /* LaunchScreen.storyboard */; };
+		E5383C611E2F5CE700AAF148 /* CHContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5383C571E2F5CE700AAF148 /* CHContentViewController.swift */; };
+		E5383C621E2F5CE700AAF148 /* CHControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5383C581E2F5CE700AAF148 /* CHControls.swift */; };
+		E5383C631E2F5CE700AAF148 /* CHModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5383C591E2F5CE700AAF148 /* CHModalViewController.swift */; };
+		E5383C641E2F5CE700AAF148 /* CHPagingScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5383C5A1E2F5CE700AAF148 /* CHPagingScrollViewController.swift */; };
+		E5383C651E2F5CE700AAF148 /* CHPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5383C5B1E2F5CE700AAF148 /* CHPickerViewController.swift */; };
+		E5383C661E2F5CE700AAF148 /* DrawingCanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5383C5C1E2F5CE700AAF148 /* DrawingCanvasView.swift */; };
+		E5383C671E2F5CE700AAF148 /* FIlters.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5383C5D1E2F5CE700AAF148 /* FIlters.swift */; };
+		E5383C681E2F5CE700AAF148 /* NavigationControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5383C5E1E2F5CE700AAF148 /* NavigationControllers.swift */; };
+		E5383C691E2F5CE700AAF148 /* RecordButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5383C5F1E2F5CE700AAF148 /* RecordButton.swift */; };
+		E5383C6A1E2F5CE700AAF148 /* UIViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5383C601E2F5CE700AAF148 /* UIViewController+Navigation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +32,16 @@
 		E5383C4B1E2F5B8B00AAF148 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5383C4E1E2F5B8B00AAF148 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5383C501E2F5B8B00AAF148 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5383C571E2F5CE700AAF148 /* CHContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHContentViewController.swift; sourceTree = "<group>"; };
+		E5383C581E2F5CE700AAF148 /* CHControls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHControls.swift; sourceTree = "<group>"; };
+		E5383C591E2F5CE700AAF148 /* CHModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHModalViewController.swift; sourceTree = "<group>"; };
+		E5383C5A1E2F5CE700AAF148 /* CHPagingScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHPagingScrollViewController.swift; sourceTree = "<group>"; };
+		E5383C5B1E2F5CE700AAF148 /* CHPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHPickerViewController.swift; sourceTree = "<group>"; };
+		E5383C5C1E2F5CE700AAF148 /* DrawingCanvasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingCanvasView.swift; sourceTree = "<group>"; };
+		E5383C5D1E2F5CE700AAF148 /* FIlters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FIlters.swift; sourceTree = "<group>"; };
+		E5383C5E1E2F5CE700AAF148 /* NavigationControllers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationControllers.swift; sourceTree = "<group>"; };
+		E5383C5F1E2F5CE700AAF148 /* RecordButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordButton.swift; sourceTree = "<group>"; };
+		E5383C601E2F5CE700AAF148 /* UIViewController+Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Navigation.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +58,7 @@
 		E5383C381E2F5B8B00AAF148 = {
 			isa = PBXGroup;
 			children = (
+				E5383C561E2F5CE700AAF148 /* Sources */,
 				E5383C431E2F5B8B00AAF148 /* Refrigerator_final */,
 				E5383C421E2F5B8B00AAF148 /* Products */,
 			);
@@ -62,6 +83,24 @@
 				E5383C501E2F5B8B00AAF148 /* Info.plist */,
 			);
 			path = Refrigerator_final;
+			sourceTree = "<group>";
+		};
+		E5383C561E2F5CE700AAF148 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E5383C571E2F5CE700AAF148 /* CHContentViewController.swift */,
+				E5383C581E2F5CE700AAF148 /* CHControls.swift */,
+				E5383C591E2F5CE700AAF148 /* CHModalViewController.swift */,
+				E5383C5A1E2F5CE700AAF148 /* CHPagingScrollViewController.swift */,
+				E5383C5B1E2F5CE700AAF148 /* CHPickerViewController.swift */,
+				E5383C5C1E2F5CE700AAF148 /* DrawingCanvasView.swift */,
+				E5383C5D1E2F5CE700AAF148 /* FIlters.swift */,
+				E5383C5E1E2F5CE700AAF148 /* NavigationControllers.swift */,
+				E5383C5F1E2F5CE700AAF148 /* RecordButton.swift */,
+				E5383C601E2F5CE700AAF148 /* UIViewController+Navigation.swift */,
+			);
+			name = Sources;
+			path = "../../Refrigerator 2/Sources";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +175,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5383C6A1E2F5CE700AAF148 /* UIViewController+Navigation.swift in Sources */,
+				E5383C611E2F5CE700AAF148 /* CHContentViewController.swift in Sources */,
 				E5383C471E2F5B8B00AAF148 /* ViewController.swift in Sources */,
+				E5383C621E2F5CE700AAF148 /* CHControls.swift in Sources */,
 				E5383C451E2F5B8B00AAF148 /* AppDelegate.swift in Sources */,
+				E5383C641E2F5CE700AAF148 /* CHPagingScrollViewController.swift in Sources */,
+				E5383C661E2F5CE700AAF148 /* DrawingCanvasView.swift in Sources */,
+				E5383C691E2F5CE700AAF148 /* RecordButton.swift in Sources */,
+				E5383C631E2F5CE700AAF148 /* CHModalViewController.swift in Sources */,
+				E5383C681E2F5CE700AAF148 /* NavigationControllers.swift in Sources */,
+				E5383C651E2F5CE700AAF148 /* CHPickerViewController.swift in Sources */,
+				E5383C671E2F5CE700AAF148 /* FIlters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +348,7 @@
 				E5383C551E2F5B8B00AAF148 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
